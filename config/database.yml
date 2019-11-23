@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: awsrails_production
-  username: awsrails
-  password: <%= ENV['AWSRAILS_DATABASE_PASSWORD'] %>
+  username: root 
+  password: 
